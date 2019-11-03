@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01227FD7B1FFA435BD9071D4 /* Pods_revolut_test_task_revolut_test_taskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2150DFDA795D134F26D68678 /* Pods_revolut_test_task_revolut_test_taskTests.framework */; };
+		118D7E3E236EEBC400E9D27D /* ServicesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118D7E3D236EEBC400E9D27D /* ServicesAssembly.swift */; };
 		5FBE0498236356E700EA1EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE0497236356E700EA1EC0 /* AppDelegate.swift */; };
 		5FBE049E236356E800EA1EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBE049D236356E800EA1EC0 /* Assets.xcassets */; };
 		5FBE04A1236356E800EA1EC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBE04A0236356E800EA1EC0 /* Preview Assets.xcassets */; };
@@ -28,8 +30,7 @@
 		5FC5F4C5236DEC4800B6F31A /* ModuleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5F4C4236DEC4800B6F31A /* ModuleAssembly.swift */; };
 		5FC5F4C7236DEC6900B6F31A /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5F4C6236DEC6900B6F31A /* MainAssembly.swift */; };
 		5FF9A966236DE6CE00704A29 /* DependencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9A965236DE6CE00704A29 /* DependencyService.swift */; };
-		80626BE123CFC48953BC957E /* Pods_revolut_test_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5A3838880B8704AB5E98B5 /* Pods_revolut_test_task.framework */; };
-		95FC4A190FAC2D49A44E326F /* Pods_revolut_test_task_revolut_test_taskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74EAFE2823E99EFE35AF6E12 /* Pods_revolut_test_task_revolut_test_taskTests.framework */; };
+		C8A6F0C2B21FA53DDC67D924 /* Pods_revolut_test_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EC04A38FCAF6452A918D0C /* Pods_revolut_test_task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D5A3838880B8704AB5E98B5 /* Pods_revolut_test_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_revolut_test_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		574CB355CE1C873C37A92544 /* Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig"; path = "Target Support Files/Pods-revolut_test_task-revolut_test_taskTests/Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		118D7E3D236EEBC400E9D27D /* ServicesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesAssembly.swift; sourceTree = "<group>"; };
+		13513117C03CFCECAC693A9D /* Pods-revolut_test_task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut_test_task.release.xcconfig"; path = "Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task.release.xcconfig"; sourceTree = "<group>"; };
+		2150DFDA795D134F26D68678 /* Pods_revolut_test_task_revolut_test_taskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_revolut_test_task_revolut_test_taskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FBE0494236356E700EA1EC0 /* revolut_test_task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = revolut_test_task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FBE0497236356E700EA1EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FBE049D236356E800EA1EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,10 +72,10 @@
 		5FC5F4C4236DEC4800B6F31A /* ModuleAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleAssembly.swift; sourceTree = "<group>"; };
 		5FC5F4C6236DEC6900B6F31A /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
 		5FF9A965236DE6CE00704A29 /* DependencyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyService.swift; sourceTree = "<group>"; };
-		685C387869677ECAF9E6A408 /* Pods-revolut_test_task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut_test_task.debug.xcconfig"; path = "Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task.debug.xcconfig"; sourceTree = "<group>"; };
-		74EAFE2823E99EFE35AF6E12 /* Pods_revolut_test_task_revolut_test_taskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_revolut_test_task_revolut_test_taskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC69D780C8E5C9005487A946 /* Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig"; path = "Target Support Files/Pods-revolut_test_task-revolut_test_taskTests/Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig"; sourceTree = "<group>"; };
-		F52F58A055746524E67CFF01 /* Pods-revolut_test_task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut_test_task.release.xcconfig"; path = "Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task.release.xcconfig"; sourceTree = "<group>"; };
+		719F570AECACC62B817F1EF9 /* Pods-revolut_test_task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut_test_task.debug.xcconfig"; path = "Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task.debug.xcconfig"; sourceTree = "<group>"; };
+		797DFDB545EF9C291959C77F /* Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig"; path = "Target Support Files/Pods-revolut_test_task-revolut_test_taskTests/Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F1F36738DEB5CA51FE76A34 /* Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig"; path = "Target Support Files/Pods-revolut_test_task-revolut_test_taskTests/Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0EC04A38FCAF6452A918D0C /* Pods_revolut_test_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_revolut_test_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80626BE123CFC48953BC957E /* Pods_revolut_test_task.framework in Frameworks */,
+				C8A6F0C2B21FA53DDC67D924 /* Pods_revolut_test_task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95FC4A190FAC2D49A44E326F /* Pods_revolut_test_task_revolut_test_taskTests.framework in Frameworks */,
+				01227FD7B1FFA435BD9071D4 /* Pods_revolut_test_task_revolut_test_taskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +105,7 @@
 				5FBE04AD236356E800EA1EC0 /* revolut_test_taskTests */,
 				5FBE0495236356E700EA1EC0 /* Products */,
 				C40B1B629D8EA467D5C75DDE /* Pods */,
-				D3A506C4BD084C60BF88F7C5 /* Frameworks */,
+				BC20F1B6808675AB5FD339E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				5FF9A965236DE6CE00704A29 /* DependencyService.swift */,
+				118D7E3D236EEBC400E9D27D /* ServicesAssembly.swift */,
 			);
 			path = "Dependency Service";
 			sourceTree = "<group>";
@@ -321,24 +324,24 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		BC20F1B6808675AB5FD339E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0EC04A38FCAF6452A918D0C /* Pods_revolut_test_task.framework */,
+				2150DFDA795D134F26D68678 /* Pods_revolut_test_task_revolut_test_taskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C40B1B629D8EA467D5C75DDE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				685C387869677ECAF9E6A408 /* Pods-revolut_test_task.debug.xcconfig */,
-				F52F58A055746524E67CFF01 /* Pods-revolut_test_task.release.xcconfig */,
-				574CB355CE1C873C37A92544 /* Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig */,
-				EC69D780C8E5C9005487A946 /* Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig */,
+				719F570AECACC62B817F1EF9 /* Pods-revolut_test_task.debug.xcconfig */,
+				13513117C03CFCECAC693A9D /* Pods-revolut_test_task.release.xcconfig */,
+				7F1F36738DEB5CA51FE76A34 /* Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig */,
+				797DFDB545EF9C291959C77F /* Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		D3A506C4BD084C60BF88F7C5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2D5A3838880B8704AB5E98B5 /* Pods_revolut_test_task.framework */,
-				74EAFE2823E99EFE35AF6E12 /* Pods_revolut_test_task_revolut_test_taskTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,11 +351,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FBE04B3236356E800EA1EC0 /* Build configuration list for PBXNativeTarget "revolut_test_task" */;
 			buildPhases = (
-				CFC1E5A985787F49B5C2E7BA /* [CP] Check Pods Manifest.lock */,
+				92AA00D2DAD4C3E0B6F6DFAE /* [CP] Check Pods Manifest.lock */,
 				5FBE0490236356E700EA1EC0 /* Sources */,
 				5FBE0491236356E700EA1EC0 /* Frameworks */,
 				5FBE0492236356E700EA1EC0 /* Resources */,
-				55B6E2FF492567334F56C0AB /* [CP] Embed Pods Frameworks */,
+				89E88438AC0CBAB4ADE9340E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -367,11 +370,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FBE04B6236356E800EA1EC0 /* Build configuration list for PBXNativeTarget "revolut_test_taskTests" */;
 			buildPhases = (
-				F1B353A3DAEB3CB8C14A35E5 /* [CP] Check Pods Manifest.lock */,
+				ADF4169596411E1E48A74023 /* [CP] Check Pods Manifest.lock */,
 				5FBE04A6236356E800EA1EC0 /* Sources */,
 				5FBE04A7236356E800EA1EC0 /* Frameworks */,
 				5FBE04A8236356E800EA1EC0 /* Resources */,
-				B418B896ABD2C794A96561FD /* [CP] Embed Pods Frameworks */,
+				09EDF56E20028A1F3DF71D42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -442,24 +445,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		55B6E2FF492567334F56C0AB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B418B896ABD2C794A96561FD /* [CP] Embed Pods Frameworks */ = {
+		09EDF56E20028A1F3DF71D42 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -476,7 +462,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-revolut_test_task-revolut_test_taskTests/Pods-revolut_test_task-revolut_test_taskTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CFC1E5A985787F49B5C2E7BA /* [CP] Check Pods Manifest.lock */ = {
+		89E88438AC0CBAB4ADE9340E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92AA00D2DAD4C3E0B6F6DFAE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -498,7 +501,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F1B353A3DAEB3CB8C14A35E5 /* [CP] Check Pods Manifest.lock */ = {
+		ADF4169596411E1E48A74023 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -534,6 +537,7 @@
 				5FBE04C62363584A00EA1EC0 /* CurrencyInternetClient.swift in Sources */,
 				5FC5F4C5236DEC4800B6F31A /* ModuleAssembly.swift in Sources */,
 				5FBE04D123648F7900EA1EC0 /* MainModel.swift in Sources */,
+				118D7E3E236EEBC400E9D27D /* ServicesAssembly.swift in Sources */,
 				5FBE04DD2364A0EA00EA1EC0 /* CodedCurrencyPairs.swift in Sources */,
 				5FBE04E52364AC1000EA1EC0 /* MainCellVMImplementation.swift in Sources */,
 				5FBE04D323648FC200EA1EC0 /* MainModelImplementation.swift in Sources */,
@@ -693,7 +697,7 @@
 		};
 		5FBE04B4236356E800EA1EC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 685C387869677ECAF9E6A408 /* Pods-revolut_test_task.debug.xcconfig */;
+			baseConfigurationReference = 719F570AECACC62B817F1EF9 /* Pods-revolut_test_task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -701,6 +705,7 @@
 				DEVELOPMENT_TEAM = 4629S43LND;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = revolut_test_task/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -714,7 +719,7 @@
 		};
 		5FBE04B5236356E800EA1EC0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F52F58A055746524E67CFF01 /* Pods-revolut_test_task.release.xcconfig */;
+			baseConfigurationReference = 13513117C03CFCECAC693A9D /* Pods-revolut_test_task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -722,6 +727,7 @@
 				DEVELOPMENT_TEAM = 4629S43LND;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = revolut_test_task/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -735,7 +741,7 @@
 		};
 		5FBE04B7236356E800EA1EC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 574CB355CE1C873C37A92544 /* Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig */;
+			baseConfigurationReference = 7F1F36738DEB5CA51FE76A34 /* Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -758,7 +764,7 @@
 		};
 		5FBE04B8236356E800EA1EC0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC69D780C8E5C9005487A946 /* Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig */;
+			baseConfigurationReference = 797DFDB545EF9C291959C77F /* Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

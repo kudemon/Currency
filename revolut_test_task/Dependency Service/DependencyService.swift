@@ -14,10 +14,10 @@ class DependencyService {
             CurrencyInternetClient() as InternetClient
         }
         
-        DIFramework.shared.register { () -> MainModel in
-            let model = MainModelImplementation(internetClient: resolve())
-            return model as MainModel
-        }
+//        DIFramework.shared.register { () -> MainModel in
+//            let model = MainModelImplementation(internetClient: resolve())
+//            return model as MainModel
+//        }
         
         DIFramework.shared.register {
             MainViewModelImplementation(model: resolve(), pairs: resolve()) as MainViewModel

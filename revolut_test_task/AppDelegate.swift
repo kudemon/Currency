@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         dependenciesService.makeDependencies()
         
         let window = UIWindow()
-        window.rootViewController = MainAssembly().rootViewController
+        window.rootViewController = ViewAssembly.instance().view
         window.makeKeyAndVisible()
         self.window = window
         return true
