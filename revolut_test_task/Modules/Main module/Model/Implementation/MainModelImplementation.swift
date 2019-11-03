@@ -9,11 +9,7 @@
 import Foundation
 
 class MainModelImplementation {
-    private let internetClient: InternetClient
-    
-    init(internetClient: InternetClient) {
-        self.internetClient = internetClient
-    }
+    var internetClient: InternetClient? // injected
 }
 
 extension MainModelImplementation: MainModel {
@@ -23,7 +19,7 @@ extension MainModelImplementation: MainModel {
         
         let url = URL(string: finalURL)!
         
-        internetClient.loadData(ofURL: url) { currencyResponse in
+        internetClient?.loadData(ofURL: url) { currencyResponse in
             switch currencyResponse {
             case .success(let data):
                 do {
