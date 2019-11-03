@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EBB3185EDA3FDD128A657219C6B5A90 /* Pods-revolut_test_task-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9498FDCC7B9EDBAFE0C5E2A558EF6CF /* Pods-revolut_test_task-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2714CB7229C0AEB6668A4BF2CCD2C21 /* EasyDi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED8A64B546ED703009E17A47A02026C /* EasyDi.swift */; };
+		C3F4668CDC8FE1476B8F381710BF06E4 /* Pods-revolut_test_task-revolut_test_taskTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE1AA6EAE584125D2BDE3C2771DB8D6 /* Pods-revolut_test_task-revolut_test_taskTests-dummy.m */; };
+		CFDF17A74179E9976B6125A168BEA0E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D524634EFFBD6558E967426B15B428C1 /* Pods-revolut_test_task-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C8114BEA9DB38D7C4B49CEF615258D /* Pods-revolut_test_task-dummy.m */; };
+		DE5286E3181A3BEEDE53DA543CE46F1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E9F9572226F37BFE2161CE321139C9DB /* Pods-revolut_test_task-revolut_test_taskTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA458D38DD1948AAFAE46AACF3C10C05 /* Pods-revolut_test_task-revolut_test_taskTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAD0ADF6E7087832D1B39A9C01196C95 /* EasyDi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F99EEF333C611EBEB970C9B80975209 /* EasyDi-dummy.m */; };
+		F1AAE7DDCFF46AEFBEB9E3780A04172A /* EasyDi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0DA0888E551F251B023A9AA392E3063 /* EasyDi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBE1E53B2B3C899FB5CFA0F26ACCEABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CFA3FD349561EF595FB2A93BFEEBE49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16E0DD713AAB4501164ACC1E67208D7;
+			remoteInfo = EasyDi;
+		};
+		95C7745D61FE492681F0C6016564979A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16E0DD713AAB4501164ACC1E67208D7;
+			remoteInfo = EasyDi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026C66093866714460CD6131C7E1898F /* EasyDi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyDi-prefix.pch"; sourceTree = "<group>"; };
+		0CDD6D487BF5579659A83DFDB6A33164 /* Pods-revolut_test_task-revolut_test_taskTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-revolut_test_task-revolut_test_taskTests.modulemap"; sourceTree = "<group>"; };
+		0D0BFF3D2AB66C275F60BBBB7BB162B2 /* Pods-revolut_test_task-revolut_test_taskTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-revolut_test_task-revolut_test_taskTests-Info.plist"; sourceTree = "<group>"; };
+		18FBE6CB1A485D9E857A2661EF0B78A9 /* Pods_revolut_test_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_revolut_test_task.framework; path = "Pods-revolut_test_task.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAE4E901BF3BFCDA2E49C92F5E0028B /* Pods-revolut_test_task-revolut_test_taskTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-revolut_test_task-revolut_test_taskTests-frameworks.sh"; sourceTree = "<group>"; };
+		2E251D598EFB335F00BCF3D2ED56D6B7 /* EasyDi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasyDi-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4085F7C3F477B8924176A43D2AA328EC /* Pods-revolut_test_task-revolut_test_taskTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-revolut_test_task-revolut_test_taskTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77B04E001853D681DB4768886307D71A /* Pods-revolut_test_task-revolut_test_taskTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-revolut_test_task-revolut_test_taskTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		785A4C9D38C1807DAF341B801BC6E0BE /* Pods-revolut_test_task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-revolut_test_task.release.xcconfig"; sourceTree = "<group>"; };
+		896B17208E14074D97A790886CD7D8FD /* Pods-revolut_test_task-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-revolut_test_task-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D3C3DF6BD777D193A510F1C6861635F /* Pods_revolut_test_task_revolut_test_taskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_revolut_test_task_revolut_test_taskTests.framework; path = "Pods-revolut_test_task-revolut_test_taskTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F99EEF333C611EBEB970C9B80975209 /* EasyDi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyDi-dummy.m"; sourceTree = "<group>"; };
+		9AE1AA6EAE584125D2BDE3C2771DB8D6 /* Pods-revolut_test_task-revolut_test_taskTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-revolut_test_task-revolut_test_taskTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC8B1C68BAE7D67713920971D6C8B89 /* EasyDi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyDi.modulemap; sourceTree = "<group>"; };
+		AED8A64B546ED703009E17A47A02026C /* EasyDi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyDi.swift; path = Sources/EasyDi.swift; sourceTree = "<group>"; };
+		B0DA0888E551F251B023A9AA392E3063 /* EasyDi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyDi-umbrella.h"; sourceTree = "<group>"; };
+		B36FC5AE3605CDA043199C0982B624BF /* Pods-revolut_test_task-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-revolut_test_task-Info.plist"; sourceTree = "<group>"; };
+		B3C8114BEA9DB38D7C4B49CEF615258D /* Pods-revolut_test_task-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-revolut_test_task-dummy.m"; sourceTree = "<group>"; };
+		BE0EE293610915DA6F8DFAFEEC6B4A0B /* Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig"; sourceTree = "<group>"; };
+		C927100F470F891C985045B24280E085 /* Pods-revolut_test_task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-revolut_test_task.debug.xcconfig"; sourceTree = "<group>"; };
+		CA572ED1A8E11F35EBACE82736E4E6BA /* Pods-revolut_test_task.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-revolut_test_task.modulemap"; sourceTree = "<group>"; };
+		CB4AD6B1F010A2FE38CF28DEFB7A641A /* Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3D750282071D853F2554E36C9A0E1E5 /* EasyDi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyDi.xcconfig; sourceTree = "<group>"; };
+		D600C1AF99CFE7A88AC3F20A5713078F /* Pods-revolut_test_task-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-revolut_test_task-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1C94857173EFCFED528D089040D78C1 /* Pods-revolut_test_task-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-revolut_test_task-frameworks.sh"; sourceTree = "<group>"; };
+		E9498FDCC7B9EDBAFE0C5E2A558EF6CF /* Pods-revolut_test_task-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-revolut_test_task-umbrella.h"; sourceTree = "<group>"; };
+		EA458D38DD1948AAFAE46AACF3C10C05 /* Pods-revolut_test_task-revolut_test_taskTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-revolut_test_task-revolut_test_taskTests-umbrella.h"; sourceTree = "<group>"; };
+		EE065AFC8A810E7976D4851C1E969989 /* EasyDi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasyDi.framework; path = EasyDi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		633820358C3242C5C9AC739A6E8937E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE1E53B2B3C899FB5CFA0F26ACCEABD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D5EE5E5CD1821C4BB6159C986874E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5286E3181A3BEEDE53DA543CE46F1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF24EED85CF9336726182C51403D6590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDF17A74179E9976B6125A168BEA0E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08749F6CF65F3FD4DA038D526FAD50C0 /* Pods-revolut_test_task-revolut_test_taskTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CDD6D487BF5579659A83DFDB6A33164 /* Pods-revolut_test_task-revolut_test_taskTests.modulemap */,
+				77B04E001853D681DB4768886307D71A /* Pods-revolut_test_task-revolut_test_taskTests-acknowledgements.markdown */,
+				4085F7C3F477B8924176A43D2AA328EC /* Pods-revolut_test_task-revolut_test_taskTests-acknowledgements.plist */,
+				9AE1AA6EAE584125D2BDE3C2771DB8D6 /* Pods-revolut_test_task-revolut_test_taskTests-dummy.m */,
+				1AAE4E901BF3BFCDA2E49C92F5E0028B /* Pods-revolut_test_task-revolut_test_taskTests-frameworks.sh */,
+				0D0BFF3D2AB66C275F60BBBB7BB162B2 /* Pods-revolut_test_task-revolut_test_taskTests-Info.plist */,
+				EA458D38DD1948AAFAE46AACF3C10C05 /* Pods-revolut_test_task-revolut_test_taskTests-umbrella.h */,
+				CB4AD6B1F010A2FE38CF28DEFB7A641A /* Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig */,
+				BE0EE293610915DA6F8DFAFEEC6B4A0B /* Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig */,
+			);
+			name = "Pods-revolut_test_task-revolut_test_taskTests";
+			path = "Target Support Files/Pods-revolut_test_task-revolut_test_taskTests";
+			sourceTree = "<group>";
+		};
+		1E253197E5F00187E534F8C12E1B8586 /* EasyDi */ = {
+			isa = PBXGroup;
+			children = (
+				AED8A64B546ED703009E17A47A02026C /* EasyDi.swift */,
+				687C286ECFFA82AA11F1D27392339B66 /* Support Files */,
+			);
+			name = EasyDi;
+			path = EasyDi;
+			sourceTree = "<group>";
+		};
+		1EA09EEDE3371DE72E5FFD4F23F62EFD /* Pods-revolut_test_task */ = {
+			isa = PBXGroup;
+			children = (
+				CA572ED1A8E11F35EBACE82736E4E6BA /* Pods-revolut_test_task.modulemap */,
+				896B17208E14074D97A790886CD7D8FD /* Pods-revolut_test_task-acknowledgements.markdown */,
+				D600C1AF99CFE7A88AC3F20A5713078F /* Pods-revolut_test_task-acknowledgements.plist */,
+				B3C8114BEA9DB38D7C4B49CEF615258D /* Pods-revolut_test_task-dummy.m */,
+				E1C94857173EFCFED528D089040D78C1 /* Pods-revolut_test_task-frameworks.sh */,
+				B36FC5AE3605CDA043199C0982B624BF /* Pods-revolut_test_task-Info.plist */,
+				E9498FDCC7B9EDBAFE0C5E2A558EF6CF /* Pods-revolut_test_task-umbrella.h */,
+				C927100F470F891C985045B24280E085 /* Pods-revolut_test_task.debug.xcconfig */,
+				785A4C9D38C1807DAF341B801BC6E0BE /* Pods-revolut_test_task.release.xcconfig */,
+			);
+			name = "Pods-revolut_test_task";
+			path = "Target Support Files/Pods-revolut_test_task";
+			sourceTree = "<group>";
+		};
+		4FD690A922D4467FFC5729DDF9B965FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E253197E5F00187E534F8C12E1B8586 /* EasyDi */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		687C286ECFFA82AA11F1D27392339B66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EC8B1C68BAE7D67713920971D6C8B89 /* EasyDi.modulemap */,
+				D3D750282071D853F2554E36C9A0E1E5 /* EasyDi.xcconfig */,
+				8F99EEF333C611EBEB970C9B80975209 /* EasyDi-dummy.m */,
+				2E251D598EFB335F00BCF3D2ED56D6B7 /* EasyDi-Info.plist */,
+				026C66093866714460CD6131C7E1898F /* EasyDi-prefix.pch */,
+				B0DA0888E551F251B023A9AA392E3063 /* EasyDi-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EasyDi";
+			sourceTree = "<group>";
+		};
+		73B9AF7E8E8CFFD66CFF33A13035045E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EA09EEDE3371DE72E5FFD4F23F62EFD /* Pods-revolut_test_task */,
+				08749F6CF65F3FD4DA038D526FAD50C0 /* Pods-revolut_test_task-revolut_test_taskTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A72C53A98970B1B93FB8FBAFA8B9AFFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE065AFC8A810E7976D4851C1E969989 /* EasyDi.framework */,
+				18FBE6CB1A485D9E857A2661EF0B78A9 /* Pods_revolut_test_task.framework */,
+				8D3C3DF6BD777D193A510F1C6861635F /* Pods_revolut_test_task_revolut_test_taskTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4FD690A922D4467FFC5729DDF9B965FE /* Pods */,
+				A72C53A98970B1B93FB8FBAFA8B9AFFD /* Products */,
+				73B9AF7E8E8CFFD66CFF33A13035045E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2658E3E0905346860DE197ED2CFAB923 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F9572226F37BFE2161CE321139C9DB /* Pods-revolut_test_task-revolut_test_taskTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0785D4A30C020F2528DD6094E2F637 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBB3185EDA3FDD128A657219C6B5A90 /* Pods-revolut_test_task-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC5001D61E76CDAA9EB2332C778D94D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AAE7DDCFF46AEFBEB9E3780A04172A /* EasyDi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		99239639D92EB3C8EB1214200FE64B8B /* Pods-revolut_test_task-revolut_test_taskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A595E47338F019E36F6E3DA7544BC8BE /* Build configuration list for PBXNativeTarget "Pods-revolut_test_task-revolut_test_taskTests" */;
+			buildPhases = (
+				2658E3E0905346860DE197ED2CFAB923 /* Headers */,
+				4A70DEEA3614C83C6A94AA8DE0CE67E4 /* Sources */,
+				EF24EED85CF9336726182C51403D6590 /* Frameworks */,
+				01502362041F6D7488315B8C39188076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC622D6E0C192701B3922247E68BB137 /* PBXTargetDependency */,
+			);
+			name = "Pods-revolut_test_task-revolut_test_taskTests";
+			productName = "Pods-revolut_test_task-revolut_test_taskTests";
+			productReference = 8D3C3DF6BD777D193A510F1C6861635F /* Pods_revolut_test_task_revolut_test_taskTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8E34977E72FA1C17C5FAD7F164B3690 /* Pods-revolut_test_task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC13573BE8BADD37C0AAE10704D17755 /* Build configuration list for PBXNativeTarget "Pods-revolut_test_task" */;
+			buildPhases = (
+				EA0785D4A30C020F2528DD6094E2F637 /* Headers */,
+				DB7264FD7B218C5661B360170EF6340A /* Sources */,
+				7D5EE5E5CD1821C4BB6159C986874E6F /* Frameworks */,
+				F9F6A6EB8BF6A49D581C7E7389723BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941063ACCB4B195CB40855A1F68B6985 /* PBXTargetDependency */,
+			);
+			name = "Pods-revolut_test_task";
+			productName = "Pods-revolut_test_task";
+			productReference = 18FBE6CB1A485D9E857A2661EF0B78A9 /* Pods_revolut_test_task.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F16E0DD713AAB4501164ACC1E67208D7 /* EasyDi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64469BB8F6DA2E47E3D67505F93B9DB0 /* Build configuration list for PBXNativeTarget "EasyDi" */;
+			buildPhases = (
+				FAC5001D61E76CDAA9EB2332C778D94D /* Headers */,
+				46884B4AD216A59360FFBF85365EC979 /* Sources */,
+				633820358C3242C5C9AC739A6E8937E8 /* Frameworks */,
+				0B8D61EF5528A7E9607C87024123C510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyDi;
+			productName = EasyDi;
+			productReference = EE065AFC8A810E7976D4851C1E969989 /* EasyDi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A72C53A98970B1B93FB8FBAFA8B9AFFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16E0DD713AAB4501164ACC1E67208D7 /* EasyDi */,
+				B8E34977E72FA1C17C5FAD7F164B3690 /* Pods-revolut_test_task */,
+				99239639D92EB3C8EB1214200FE64B8B /* Pods-revolut_test_task-revolut_test_taskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01502362041F6D7488315B8C39188076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8D61EF5528A7E9607C87024123C510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F6A6EB8BF6A49D581C7E7389723BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46884B4AD216A59360FFBF85365EC979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD0ADF6E7087832D1B39A9C01196C95 /* EasyDi-dummy.m in Sources */,
+				A2714CB7229C0AEB6668A4BF2CCD2C21 /* EasyDi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A70DEEA3614C83C6A94AA8DE0CE67E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F4668CDC8FE1476B8F381710BF06E4 /* Pods-revolut_test_task-revolut_test_taskTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7264FD7B218C5661B360170EF6340A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D524634EFFBD6558E967426B15B428C1 /* Pods-revolut_test_task-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		941063ACCB4B195CB40855A1F68B6985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyDi;
+			target = F16E0DD713AAB4501164ACC1E67208D7 /* EasyDi */;
+			targetProxy = 95C7745D61FE492681F0C6016564979A /* PBXContainerItemProxy */;
+		};
+		FC622D6E0C192701B3922247E68BB137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyDi;
+			target = F16E0DD713AAB4501164ACC1E67208D7 /* EasyDi */;
+			targetProxy = 5CFA3FD349561EF595FB2A93BFEEBE49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		78ECA7E8433164E9872C764DD29E5783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D750282071D853F2554E36C9A0E1E5 /* EasyDi.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyDi/EasyDi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyDi/EasyDi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EasyDi/EasyDi.modulemap";
+				PRODUCT_MODULE_NAME = EasyDi;
+				PRODUCT_NAME = EasyDi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CA5AF69741621CD5C5068B3EF02ADC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4AD6B1F010A2FE38CF28DEFB7A641A /* Pods-revolut_test_task-revolut_test_taskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-revolut_test_task-revolut_test_taskTests/Pods-revolut_test_task-revolut_test_taskTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-revolut_test_task-revolut_test_taskTests/Pods-revolut_test_task-revolut_test_taskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B65AE073F53F9C10CF44174B6A4DD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0EE293610915DA6F8DFAFEEC6B4A0B /* Pods-revolut_test_task-revolut_test_taskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-revolut_test_task-revolut_test_taskTests/Pods-revolut_test_task-revolut_test_taskTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-revolut_test_task-revolut_test_taskTests/Pods-revolut_test_task-revolut_test_taskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B143467DA897B9DAA4B7A41A3D8BA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785A4C9D38C1807DAF341B801BC6E0BE /* Pods-revolut_test_task.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8A56124E1E8836BCE11671067969118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C927100F470F891C985045B24280E085 /* Pods-revolut_test_task.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-revolut_test_task/Pods-revolut_test_task.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F895DB0A58C8DA994D86A2689E50B55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D750282071D853F2554E36C9A0E1E5 /* EasyDi.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyDi/EasyDi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyDi/EasyDi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EasyDi/EasyDi.modulemap";
+				PRODUCT_MODULE_NAME = EasyDi;
+				PRODUCT_NAME = EasyDi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E13245C9FBBE6A340C555CA8B2B4C /* Debug */,
+				510B057D2E9F059C50D52DA5D90F3ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64469BB8F6DA2E47E3D67505F93B9DB0 /* Build configuration list for PBXNativeTarget "EasyDi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78ECA7E8433164E9872C764DD29E5783 /* Debug */,
+				F895DB0A58C8DA994D86A2689E50B55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A595E47338F019E36F6E3DA7544BC8BE /* Build configuration list for PBXNativeTarget "Pods-revolut_test_task-revolut_test_taskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA5AF69741621CD5C5068B3EF02ADC6 /* Debug */,
+				8B65AE073F53F9C10CF44174B6A4DD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC13573BE8BADD37C0AAE10704D17755 /* Build configuration list for PBXNativeTarget "Pods-revolut_test_task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A56124E1E8836BCE11671067969118 /* Debug */,
+				9B143467DA897B9DAA4B7A41A3D8BA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

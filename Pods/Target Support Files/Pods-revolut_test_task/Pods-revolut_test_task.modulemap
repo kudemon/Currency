@@ -1,0 +1,6 @@
+framework module Pods_revolut_test_task {
+  umbrella header "Pods-revolut_test_task-umbrella.h"
+
+  export *
+  module * { export * }
+}
